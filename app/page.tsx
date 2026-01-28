@@ -10,8 +10,8 @@ export default function Home() {
           ))}
         </div>
 
-        <div className="z-10 relative font-bold">
-          <h1 className="text-4xl md:text-6xl px-10 py-6 bg-background">COMING SOON</h1>
+        <div className="z-10 relative font-bold px-10 py-6 bg-background">
+          <h1 className="text-4xl md:text-6xl">COMING SOON</h1>
           <p className="text-center md:text-2xl">nicholashess0129@gmail.com</p>
         </div>
       </main>
