@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex min-h-screen justify-center items-center overflow-hidden bg-black">
       <main>
-        <div className="absolute inset-0 z-0 grid grid-cols-6 md:grid-cols-10 lg:grid-cols-15 gap-4 opacity-30 text-gray-300 text-sm md:text-base font-bold select-none">
+        <div className="absolute inset-0 z-0 grid grid-cols-6 md:grid-cols-10 lg:grid-cols-14 gap-4 opacity-30 text-gray-300 text-sm md:text-base font-bold select-none">
           {comingSoon.map((item, index) => (
             <span key={index}>{item}</span>
           ))}
