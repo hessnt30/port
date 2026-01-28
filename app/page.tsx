@@ -5,7 +5,7 @@ export default function Home() {
     <div className="relative h-screen w-screen overflow-hidden bg-black flex items-center justify-center">
       
       {/* Background */}
-      <div className="absolute inset-0 z-0 grid grid-cols-6 md:grid-cols-10 lg:grid-cols-14 gap-4 opacity-30 text-gray-300 text-sm md:text-base font-bold select-none pointer-events-none">
+      <div className="absolute inset-0 z-0 grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-2 opacity-30 text-gray-300 text-sm md:text-base font-bold select-none pointer-events-none">
         {comingSoon.map((item, index) => (
           <span key={index}>{item}</span>
         ))}
