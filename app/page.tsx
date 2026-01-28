@@ -2,7 +2,7 @@ export default function Home() {
   const comingSoon = Array(300).fill("COMING SOON");
 
   return (
-    <div className="relative h-screen w-screen overflow-hidden bg-black flex items-center justify-center">
+    <div className="relative min-h-screen w-screen overflow-hidden bg-black flex items-center justify-center">
       
       {/* Background */}
       <div className="absolute inset-0 z-0 grid grid-cols-3 md:grid-cols-6 lg:grid-cols-10 xl:grid-cols-12 place-items-center gap-2 opacity-30 text-gray-300 text-sm md:text-base font-bold select-none pointer-events-none">
