@@ -2,9 +2,9 @@ export default function Home() {
   const comingSoon = Array(300).fill("COMING SOON");
 
   return (
-    <div className="flex min-h-screen items-center overflow-hidden bg-black">
+    <div className="flex min-h-screen justify-center items-center overflow-hidden bg-black">
       <main>
-        <div className="absolute inset-0 z-0 grid grid-cols-6 md:grid-cols-10 gap-6 opacity-10 text-gray-300 text-sm md:text-base font-bold select-none">
+        <div className="absolute inset-0 z-0 grid grid-cols-6 md:grid-cols-10 lg:grid-cols-15 gap-6 opacity-50 text-gray-300 text-sm md:text-base font-bold select-none">
           {comingSoon.map((item, index) => (
             <span key={index}>{item}</span>
           ))}
