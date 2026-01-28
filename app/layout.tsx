@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nick Hess",
   description: "My portfolio",
+  themeColor: "#000000",
+  appleWebApp: {
+    statusBarStyle: "black-translucent",
+  },
+
 };
 
 export default function RootLayout({
