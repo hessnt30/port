@@ -13,7 +13,7 @@ export default function About() {
           sizes="(min-width: 1024px) 33vw, 100vw"
         />
         {/* Diagonal-ish blend into the text area */}
-        <div className="pointer-events-none absolute z-10 inset-y-0 right-[-8%] w-1/4 -skew-x-6 bg-slate-900" />
+        <div className="pointer-events-none absolute z-10 inset-y-0 right-[-8%] w-1/4 -skew-x-4 bg-slate-900" />
       </div>
 
       {/* Right: name + about text */}
